@@ -1,0 +1,418 @@
+*{margin: 0;
+    padding: 0;}
+    body
+    {
+       background-color:gainsboro;
+       width:100%;
+   
+    }
+    h2{  font-family:Poppins;
+       font-size:30px ;
+       font-weight: 30px;
+       letter-spacing: 2px;
+       color: rgb(228, 6, 10);
+       font-style: italic;
+       text-transform: capitalize;
+       
+    }
+    h1{  font-family:Courgette;
+         font-size: 60px;
+         letter-spacing: 6px;
+         text-transform: uppercase;
+       }
+   #navbar{
+       display: flex;
+       width: 100%;
+       border-top: #f00  4px solid;
+       align-items: center;
+       
+       justify-content: space-around;
+       position:fixed; 
+       color: #fff; 
+       padding: 8px -40px;
+       /* transform: translatex(3%); */
+      
+   
+   }
+   
+   #menuitem{
+       display: flex;
+       flex-wrap: wrap;
+       width: 60%;
+       justify-content:space-evenly;
+       align-items: center;
+       color: white;
+   
+   }
+   
+   .sociallinks{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+   width: 80px;
+   margin-right:-130px;
+   
+   }
+   .equal{margin: 0px;}
+   .undernavbar {
+       /* background-image:url(img/tittle.jpg); */
+       background-image:url("img/slide1-03.jpg");
+       width: 100%;
+       height: 450px;
+       background-size: 100%;
+       background-repeat: no-repeat;
+       display: flex;
+       color: #fff;
+       font-size: 45px;
+       text-transform: uppercase;
+       align-items: center;
+       justify-content: center;
+       padding-top:150px ;
+      }
+   
+   #resturant{
+       text-align: center;
+       padding: 5% 25%;
+      
+       flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: center;
+       background-color:gainsboro;
+   
+   
+   }
+   #resturant text{ width: 55%;}
+   
+   #resturant p{
+       color: rgb(121, 119, 119);
+       line-height:30px ;
+       font-size:20px;
+       letter-spacing:1px;
+       /* font-weight: 30px; */
+   }
+   
+       .recipes
+   {   text-align: center;
+       display:flex;
+       width: 85%;
+       justify-content:space-around;
+       padding: 100px;
+       
+       
+   } 
+       .video{ background-image: url(img/header-menu-01.jpg);
+           width: 100%;
+           height: 550px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+       }
+       .icon-video {color:#000;
+       width: 50px;
+       height: 50px;
+       background-color: #fff;
+       border-radius: 50%;
+       text-align: center;
+       margin: 7px 150px;
+       
+       }
+       .icon-video:hover{color:#fff;
+                     background-color: red;}
+       .video-content h1{ color: #fff; margin-top: 20px;}
+                       
+       .video-content h2{margin-top: 50px; padding: 5px 135px;}
+       .fa-play{margin: 35%;}
+   
+          .recipes p{
+               color: rgb(121, 119, 119);
+               line-height:30px ;
+               font-size:20px;
+               letter-spacing:1px;
+               text-align: center;
+              
+          }
+          .recipeimg
+          {
+               width: 36%;
+               height:350px;
+               display: flex;
+               flex-wrap: wrap;
+               border-radius: 15px;
+               background-image: url(img/our-story-01.jpg);
+               background-size: 100%;
+               background-repeat: no-repeat;
+               background-position:center;
+               transition: all 2s;
+   
+          }
+          .recipeimg:hover{
+              background-size: 120%;
+              transition: all 3;
+          }
+          .allromatic{
+              width: 100%;
+              display: flex;
+            justify-content: space-around;
+            padding: 60px;
+           
+              
+          }
+          .romanticimg{
+              background-image: url(img/our-story-02.jpg);
+              flex-wrap: wrap;
+              width: 30%;
+              height:350px;
+              display: flex;
+              border-radius: 20px;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 100%;
+              transition: all 5s;
+          }
+          .romaticrestu
+          {padding: 5% 10px;}
+        .romanticimg:hover{
+            background-size: 120%;
+            transition: all 3s;}
+          .romaticrestu{  text-align: center;
+           width: 40%;}
+          
+          .romaticrestu p{
+              font-size: 20px;
+              word-spacing: 1px;
+              line-height:23px;
+              color: rgb(121, 119, 119);
+          }
+          .photo{
+              background-image: url("img/bg-cover-video-02.jpg");
+              height: 550px;
+              background-size: 100%;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              width: 100%;
+          }
+          .chefs{
+              display: flex;
+              width: 90%;
+              justify-content: space-around;
+              margin-top: 50px;
+          }
+          .meet-chef{
+              width: 80%;
+              padding: 10%; 
+              background-color: white; 
+              
+   
+          }
+          .header-chef{
+           text-align: center;
+           
+          
+            }
+   /*  */
+         .chefname{
+              /* width:400px; */
+              /* height: 350px; */
+              padding:30px 100px;
+              /* width: 65%; */
+              height: 350px;
+              margin:  40px 55px;
+              text-align: center;
+              display:contents;
+          }     
+          .chefname p{width: 250px;
+                   padding:40px 125px;
+                   color:rgb(102, 102, 102,1);
+                   letter-spacing: 1px;
+                   line-height: 20px;
+                     font-size: 15px;
+                     font-family: Montserrat;
+                     text-align: center;
+                   } 
+          .img1,.img2,.img3{
+              background-image: url(img/avatar-02.jpg);
+              width: 200px;
+              height: 200px;
+              background-size: 100%;
+              border-radius: 50%;
+              border: 5px red solid; 
+              justify-content: center;
+              margin-bottom: 15px;
+              background-position:center;
+              background-repeat: 100%;
+              transition: all 3s;
+   
+          }  
+          .img2{background-image:url("img/avatar-03.jpg") ;}
+          .img3{background-image:url("img/avatar-05.jpg") ;}
+          .img1:hover,.img2:hover,.img3:hover{background-size:110% ;
+                       transition: all 3s;}                      
+          
+          fieldset{
+              width: 30%;
+              height: 450px;
+              text-align: center;
+              border: 2px solid #e6e6e6;
+              margin:0px 15px;
+          }
+         .chefs.peter{
+             padding: 40% ;
+         }
+         h3{
+           font-family: Courgette;
+           font-size: 20px;
+           text-transform: capitalize;
+           font-weight: 900;
+           letter-spacing: 1.5px;
+           margin-bottom: 8px;
+         }
+         h3:hover{color: #f00;}
+         h4{font-family: Montserrat ;
+            color:#666;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform:uppercase;
+       }     
+       .sign{width: 100%;
+            height: 300px;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            justify-content: center;
+            align-items: center;
+   
+       }
+       .email h1{width: 300px;
+           font-family:Courgette;
+           font-size: 20px;
+           letter-spacing: 6px;
+           text-transform: uppercase;
+       }
+   .email-icon{width: 200px;
+               height: 40px;
+               display: flex;
+               flex-wrap: nowrap;
+               border-radius: 10px;
+               border: 2px solid #fff;
+               background-color: #fff;
+               padding: 5px 15px;
+               margin: 10px;
+           }
+   .envelope { display: flex;
+       color: rgb(58, 53, 53);
+              padding-right: 1px;}
+   
+   .button-sign{ width: 100px;
+               height:40px;
+               background-color: black;
+               border-radius: 8px;
+           } 
+   .button-sign:hover{background-color:#f00}
+   .final{width:95%;}
+   .table1{display: grid;
+       width: 90%;
+       height: 500px;
+       margin: 10px;
+       margin: 20px auto ;
+       padding: 60px 120px ;
+       background-color: rgb(36, 34, 34);
+       grid-template-columns: repeat(31fr) ;
+       grid-template-rows: repeat(2, 1fr) ;
+       height: 100vh;
+       /* grid-template-columns: 180px 180px 200px; */
+       grid-template-areas:"first first first second second second third third third third";}
+   
+       .firs{grid-area:first ;}
+   
+       .secon{grid-area:second;
+       }
+   
+       .thir{grid-area:third;
+           grid-row: 1/2;}
+                       
+        .one,.two{padding-left: 20px;
+                 margin-bottom: 100px;} 
+       .four{margin-top: 35px;}
+   
+        .one h1,.two h1,.three h1,.four h1,.gallary h1{ color:#fff;
+                  font-size: 20px;
+                   padding: 5% 0;}
+   
+        ul li{ list-style: none;}
+   
+                  
+       .tt1 ,.ttt,.tt2{line-height: 8px;
+           display: block;
+           width: 200px;
+           font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           font-weight: 400;
+           font-size:30 px;
+           color: #999999;
+           line-height: 1.7;}
+   
+       /* .fa ,.fas{font-size: 15px;
+           margin: 10px;}
+    */
+    fas-fa{margin: 70%;}
+   
+        span,.link{color: rgba(185, 24, 24, 0.925);}
+        span:hover,.link:hover{color: #f00;}
+        .dec21{font-size: 15px;
+           color: #999999;
+           margin-top: 40px; 
+       } 
+       .gallary{display: grid;
+           width: 80px;
+           height: 430px;}
+   
+       .child-garllary{
+           display: grid;
+           grid-template-columns: repeat(4,1fr) ;
+           grid-template-rows: repeat(3, 1fr) ;
+       } 
+        .child-garllary div{
+            width: 80px;
+            height: 80px;
+            background-size: 100%;
+           margin: 5px;
+           
+       }
+       .child-garllary:hover{ filter: grayscale();}
+       footer{background-color: #000;
+           width:1520px;
+           height: 100px;
+           color: #999999;
+           margin-top: -130px;
+          display: flex;
+          justify-content:space-around;
+          font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .links{display: flex;
+           flex-wrap:wrap;
+           justify-content:space-between;
+           width: 80px;
+           margin-left:5px;
+            padding: 50px 5px ;
+           color: rgb(248, 242, 242);}
+           
+        .footer-content{
+            padding: 50px 10px;
+            font-size: 20px;
+        }
+        @media only screen and (max-width: 600px) {
+            
+            .menuitem{ display: none;}
+   
+           .sociallinks{width: 20%;}
+   
+         /* .undernavbar{color: #f00; font-size: 20px;} */
+         
+         .recipecontent{width: 0,75vw;}
+   
+         .recipeimg{ width: .75vw; height: .75vw;}
+   
+         }
