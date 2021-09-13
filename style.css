@@ -25,8 +25,8 @@
        width: 100%;
        border-top: #f00  4px solid;
        align-items: center;
-       
-       justify-content: space-around;
+       /* margin-left: -140px; */
+       justify-content:space-around;
        position:fixed; 
        color: #fff; 
        padding: 8px -40px;
@@ -47,13 +47,13 @@
    
    .sociallinks{
    display: flex;
-   flex-wrap:wrap;
+   /* flex-wrap:wrap; */
    justify-content:space-between;
-   width: 80px;
-   margin-right:-130px;
+   width: 120px;
+   margin-right:130px;
    
    }
-   .equal{margin: 0px;}
+   
    .undernavbar {
        /* background-image:url(img/tittle.jpg); */
        background-image:url("img/slide1-03.jpg");
