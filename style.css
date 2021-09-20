@@ -6,8 +6,7 @@
        width:100%;
    
     }
-    h2{  font-family:Poppins;
-       font-size:30px ;
+    h2{  font-family:courgette;
        font-weight: 30px;
        letter-spacing: 2px;
        color: rgb(228, 6, 10);
@@ -15,8 +14,7 @@
        text-transform: capitalize;
        
     }
-    h1{  font-family:Courgette;
-         font-size: 60px;
+    h1{  font-family:'poppins';
          letter-spacing: 6px;
          text-transform: uppercase;
        }
@@ -42,9 +40,11 @@
        justify-content:space-evenly;
        align-items: center;
        color: white;
+       text-transform: uppercase;
    
    }
    
+.fa-tripadvisor:hover,.fa-facebook-f:hover,.fa-twitter:hover,.fa-bars:hover,.a:hover{color: red;}
    .sociallinks{
    display: flex;
    /* flex-wrap:wrap; */
@@ -53,6 +53,7 @@
    margin-right:130px;
    
    }
+   /* .sociallinks:hover{color: red;}fa-tripadvisor */
    
    .undernavbar {
        /* background-image:url(img/tittle.jpg); */
@@ -69,6 +70,7 @@
        justify-content: center;
        padding-top:150px ;
       }
+
    
    #resturant{
        text-align: center;
@@ -88,6 +90,7 @@
        line-height:30px ;
        font-size:20px;
        letter-spacing:1px;
+       font-family: 'montserrat';
        /* font-weight: 30px; */
    }
    
@@ -117,7 +120,7 @@
        background-color: #fff;
        border-radius: 50%;
        text-align: center;
-       margin: 7px 150px;
+       margin: 7px 200px;
        
        }
        .icon-video:hover{color:#fff;
@@ -263,7 +266,7 @@
              padding: 40% ;
          }
          h3{
-           font-family: Courgette;
+           font-family: poppin;
            font-size: 20px;
            text-transform: capitalize;
            font-weight: 900;
@@ -287,7 +290,7 @@
    
        }
        .email h1{width: 300px;
-           font-family:Courgette;
+           font-family:'poppins';
            font-size: 20px;
            letter-spacing: 6px;
            text-transform: uppercase;
@@ -295,7 +298,8 @@
    .email-icon{width: 200px;
                height: 40px;
                display: flex;
-               flex-wrap: nowrap;
+               position: relative;
+               /* flex-wrap: nowrap; */
                border-radius: 10px;
                border: 2px solid #fff;
                background-color: #fff;
@@ -304,7 +308,10 @@
            }
    .envelope { display: flex;
        color: rgb(58, 53, 53);
-              padding-right: 1px;}
+              padding-right: 1px;
+            margin-top: 10px;
+        position: absolute;
+        right: 30px;}
    
    .button-sign{ width: 100px;
                height:40px;
@@ -334,12 +341,12 @@
        .thir{grid-area:third;
            grid-row: 1/2;}
                        
-        .one,.two{padding-left: 20px;
-                 margin-bottom: 100px;} 
+        .two{
+                 margin-top: 105px;} 
        .four{margin-top: 35px;}
    
         .one h1,.two h1,.three h1,.four h1,.gallary h1{ color:#fff;
-                  font-size: 20px;
+                  font-size: 15px;
                    padding: 5% 0;}
    
         ul li{ list-style: none;}
@@ -352,7 +359,8 @@
            font-weight: 400;
            font-size:30 px;
            color: #999999;
-           line-height: 1.7;}
+           line-height: 1.7;
+        /* font-family: montserrat;} */}
    
        /* .fa ,.fas{font-size: 15px;
            margin: 10px;}
